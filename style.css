@@ -22,7 +22,12 @@ header {
 }
 
 header img.logo {
-  height: 60px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; /* makes it a perfect circle */
+  border: 4px solid var(--buttabloom-orange); /* orange border */
+  object-fit: cover; /* keeps the image proportioned inside the circle */
+  background-color: var(--buttabloom-beige); /* fallback if image has transparency */
 }
 
 header .shop-button {
