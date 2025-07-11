@@ -23,6 +23,12 @@ header {
 
 header img.logo {
   height: 60px;
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 }
 
 header .shop-button {
