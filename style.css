@@ -24,7 +24,7 @@ header {
 .logo-container {
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 4px solid var(--buttabloom-orange);
   background-color: var(--buttabloom-beige);
   display: flex;
