@@ -17,10 +17,8 @@ header {
   background-color: var(--buttabloom-black);
   padding: 20px;
   display: flex;
-  background-color: var(--buttabloom-black);
-  padding: 40px 20px 20px;
-  text-align: center;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-container {
