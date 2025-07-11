@@ -15,33 +15,23 @@ body {
 
 header {
   background-color: var(--buttabloom-black);
-  padding: 20px 40px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-header img {
-  height: 80px;
-  width: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: var(--buttabloom-beige);
+header img.logo {
+  height: 60px;
 }
 
 header .shop-button {
   background-color: var(--buttabloom-orange);
   color: white;
-  padding: 12px 24px;
+  padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 .hero {
